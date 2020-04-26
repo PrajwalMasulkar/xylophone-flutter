@@ -32,48 +32,7 @@ class XylophoneApp extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
 
-              Expanded(
-                child: FlatButton(
-                    color: Colors.orange,
-                    onPressed: () {
-                      playsound(2);
-                    }, child: Text('Click Me')),
-              ),
-              Expanded(
-                child: FlatButton(
-                    color: Colors.yellow,
-                    onPressed: () {
-                      playsound(3);
-                    }, child: Text('Click Me')),
-              ),
-              Expanded(
-                child: FlatButton(
-                    color: Colors.green,
-                    onPressed: () {
-                      playsound(4);
-                    }, child: Text('Click Me')),
-              ),
-              Expanded(
-                child: FlatButton(
-                    color: Colors.blue,
-                    onPressed: () {
-                      playsound(5);
-                    }, child: Text('Click Me')),
-              ),
-              Expanded(
-                child: FlatButton(
-                    color: Colors.purple,
-                    onPressed: () {
-                      playsound(6);
-                    }, child: Text('Click Me')),
-              ),
-              Expanded(
-                child: FlatButton(
-                    color: Colors.blueGrey,
-                    onPressed: () {
-                      playsound(7);
-                    }, child: Text('Click Me')),
-              ),
+
             ],
           ),
         ),
