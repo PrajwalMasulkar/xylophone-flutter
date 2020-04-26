@@ -10,6 +10,18 @@ class XylophoneApp extends StatelessWidget {
     final player = AudioCache();
     player.play('note$soundNumber.wav');
   }
+
+  void buildKey(){
+    Expanded(
+      child: FlatButton(
+          color: Colors.red,
+          onPressed: () {
+            playsound(1);
+          }, child: Text('Click Me')),
+    ),
+  }
+
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -19,13 +31,7 @@ class XylophoneApp extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              Expanded(
-                child: FlatButton(
-                  color: Colors.red,
-                    onPressed: () {
-                    playsound(1);
-                }, child: Text('Click Me')),
-              ),
+
               Expanded(
                 child: FlatButton(
                     color: Colors.orange,
