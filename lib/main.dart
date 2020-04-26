@@ -18,7 +18,7 @@ class XylophoneApp extends StatelessWidget {
           onPressed: () {
             playsound(1);
           }, child: Text('Click Me')),
-    ),
+    );
   }
 
 
@@ -31,7 +31,13 @@ class XylophoneApp extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-
+            buildKey();
+            buildKey();
+            buildKey();
+            buildKey();
+            buildKey();
+            buildKey();
+            buildKey();
 
             ],
           ),
