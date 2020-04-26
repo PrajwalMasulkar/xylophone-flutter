@@ -20,37 +20,37 @@ class XylophoneApp extends StatelessWidget {
               FlatButton(
                 color: Colors.red,
                   onPressed: () {
-                  playsound();
+                  playsound(1);
               }, child: Text('Click Me')),
               FlatButton(
                   color: Colors.orange,
                   onPressed: () {
-                    playsound();
+                    playsound(2);
                   }, child: Text('Click Me')),
               FlatButton(
                   color: Colors.yellow,
                   onPressed: () {
-                    playsound();
+                    playsound(3);
                   }, child: Text('Click Me')),
               FlatButton(
                   color: Colors.green,
                   onPressed: () {
-                    playsound();
+                    playsound(4);
                   }, child: Text('Click Me')),
               FlatButton(
                   color: Colors.blue,
                   onPressed: () {
-                    playsound();
+                    playsound(5);
                   }, child: Text('Click Me')),
               FlatButton(
                   color: Colors.purple,
                   onPressed: () {
-                    playsound();
+                    playsound(6);
                   }, child: Text('Click Me')),
               FlatButton(
                   color: Colors.blueGrey,
                   onPressed: () {
-                    playsound();
+                    playsound(7);
                   }, child: Text('Click Me')),
             ],
           ),
