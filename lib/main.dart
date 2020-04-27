@@ -37,7 +37,7 @@ class XylophoneApp extends StatelessWidget {
             buildKey(color: Colors.yellow,soundNumber: 3),
             buildKey(color: Colors.green,soundNumber: 4),
             buildKey(color: Colors.teal,soundNumber: 5),
-            buildKey(color: Colors.blue,soundNumber: 1),
+            buildKey(color: Colors.blue,soundNumber: 6),
            buildKey(color: Colors.purple,soundNumber: 1),
 
             ],
